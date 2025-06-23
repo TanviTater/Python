@@ -1,44 +1,81 @@
-# Python Learning Repository
+# 📘 Python Learning Repository 
 
-This repository contains a curated collection of Python scripts aimed at building a solid foundation in programming, error handling, input validation, and data manipulation using NumPy. It serves as a hands-on journey through practical coding exercises and core Python modules.
-
----
-
-## 📚 Contents
-
-### ✅ General Python Concepts
-
-| File                   | Description |
-|------------------------|-------------|
-| `AddsUptoTen.py`       | Custom input validation using the `pyinputplus` module. |
-| `AnnoyingWhileLoop.py` | Demonstrates a loop that continues until a condition is met. |
-| `ExceptionHandling.py` | Examples of basic error and exception handling in Python. |
-| `Fraction.py`          | Working with fractions and rational number operations. |
-| `GuessTheNumber.py`    | A simple number-guessing game using basic logic. |
-| `MultiplicationQuiz.py`| A multiplication quiz using the `pyinputplus` module. |
-| `PyInputPlus.py`       | Overview and utilities from the `pyinputplus` module. |
+Welcome to my personal Python learning repository!  
+Here, I practice core programming concepts, numerical computing with NumPy, input automation with PyInputPlus, and fun logic-based games.
 
 ---
 
-### 🧮 NumPy and Array Operations
+## 🚀 Current Learning Areas
 
-| File                  | Description |
-|-----------------------|-------------|
-| `NdArray.py`          | Introduction to NumPy arrays and basic creation methods. |
-| `NdArray2.py`         | Creating multidimensional arrays and exploring properties. |
-| `NdArray3.py`         | Accessing elements in 1D and multidimensional arrays. |
-| `NdArray4.py`         | Slicing arrays using NumPy. |
-| `NdArray5.py`         | Subarrays as views, no-copy operations, and how copying works. |
-| `NdArray6.py`         | Reshaping arrays and changing dimensions. |
-| `NdArray7.py`         | Concatenating arrays using `np.concatenate`, `np.vstack`, and `np.hstack`. |
-| `NdArray8.py`         | Splitting arrays using `np.split`, `np.hsplit`, and `np.vsplit`. |
-| `FixedTypeArray.py`   | Working with fixed data types in NumPy arrays. |
+- ✅ Python Basics & Control Flow
+- ✅ NumPy Arrays & Universal Functions
+- ✅ Input Handling using PyInputPlus
+- ⏳ Exploring Modules like `sys`, `random`, `fractions`, `math`
+- ⏳ Exception Handling & Type Systems
 
 ---
 
-## 🛠️ Requirements
+## 📂 Project Structure
 
-Ensure Python 3.x is installed. To install necessary packages:
+### 🧮 NumPy Practice
+
+| File                | Topic Covered                                                                 |
+|---------------------|--------------------------------------------------------------------------------|
+| `NdArray.py`        | NumPy basics                                                                  |
+| `NdArray2.py`       | Creating multi-dimensional arrays                                              |
+| `NdArray3.py`       | Accessing elements in 1D and multi-D arrays                                   |
+| `NdArray4.py`       | Array slicing                                                                 |
+| `NdArray5.py`       | Views vs copies                                                               |
+| `NdArray6.py`       | Reshaping arrays                                                              |
+| `NdArray7.py`       | Concatenation using `np.concatenate`, `vstack`, `hstack`                      |
+| `NdArray8.py`       | Splitting arrays using `split`, `hsplit`, `vsplit`                            |
+| `uFunctions.py`     | Universal functions in NumPy                                                  |
+| `uFunctionsSpecialised.py` | Specialized functions and aggregation in NumPy                     |
+| `REciprocal.py`     | Reciprocal calculation using NumPy                                            |
+| `FixedTypeArray.py` | Working with fixed data types                                                 |
+
+---
+
+### 🧰 Input & Utility Programs (PyInputPlus)
+
+| File                  | Description                                         |
+|-----------------------|-----------------------------------------------------|
+| `PyInputPlus.py`      | PyInputPlus overview                               |
+| `InputCustom.py`      | Custom input handling                              |
+| `SandwichMaker.py`    | Sandwich order builder using validated input       |
+| `MultiplicationQuiz.py` | Random math quiz using PyInputPlus              |
+| `AddsUptoTen.py`      | Validate input summing to ten                      |
+
+---
+
+### 🎲 Games & Fun Projects
+
+| File                  | Description                                         |
+|-----------------------|-----------------------------------------------------|
+| `RockPaperScissors.py`| Classic game with input handling                   |
+| `GuessTheNumber.py`   | Number guessing game                               |
+| `ZigZag.py`           | Pattern-based text animation                       |
+| `fortune.py` / `fortune2.py` | Simple fortune-telling game                |
+| `AnnoyingWhileLoop.py`| While loop exploration                             |
+
+---
+
+### 🧪 Python Fundamentals
+
+| File                   | Description                                          |
+|------------------------|------------------------------------------------------|
+| `Sys.py`               | Using `sys.exit()` and system termination           |
+| `ExceptionHandling.py` | Try-Except blocks and safe execution                |
+| `Fraction.py`          | Working with fractions module                       |
+
+---
+
+## 🔧 How to Run
 
 ```bash
-pip install numpy pyinputplus
+# Clone the repository
+git clone https://github.com/TanviTater/Python-Learning.git
+cd Python-Learning
+
+# Run any script
+python filename.py
