@@ -8,6 +8,7 @@ print("Shape of X:", X.shape)  # Print the shape of the generated points
 import matplotlib.pyplot as plt
 import seaborn ; seaborn.set()
 plt.scatter(X[:, 0], X[:, 1])
+plt.show()
 indices = np.random.choice(X.shape[0], 20, replace=False)
 print("Selected indices:", indices)  # Print the selected indices
 selected_points = X[indices]  # Select random points
