@@ -1,4 +1,4 @@
-# series ,dataframe and index
+# series 
 import pandas as pd
 import numpy as np
 print("A Pandas Series is a one-dimensional array of indexed data")
